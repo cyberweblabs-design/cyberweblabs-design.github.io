@@ -21,3 +21,7 @@ This repository contains the official website for **CyberWeb Labs**, a modern cy
 - Muhammad Danish (Founder & CEO)  
 - Waqar Ahmed (Co-Founder & Web Developer)  
 - Hassan Khan (Co-Founder & Cybersecurity Expert)  
+
+© 2025 CyberWeb Labs. All Rights Reserved.  
+This repository is private intellectual property.  
+Unauthorized use, copying, or redistribution is strictly prohibited.
