@@ -3,16 +3,44 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>About | CyberWeb Labs</title>
+  <title>About Us | CyberWeb Labs</title>
+  <meta name="description" content="Learn more about CyberWeb Labs, our mission, and our expert co-founders delivering web development and cybersecurity solutions.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/cyber-web.jpg">
+  <link rel="apple-touch-icon" href="assets/img/cyber-web.jpg">
+
+  <!-- Manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Theme -->
+  <meta name="theme-color" content="#00ff99" />
+  <meta name="background-color" content="#0a0f0d" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="About CyberWeb Labs" />
+  <meta property="og:description" content="Meet the CyberWeb Labs team and discover our mission in cybersecurity and web development." />
+  <meta property="og:image" content="https://cyberweblabs-design.github.io/assets/img/cyber-web.jpg" />
+  <meta property="og:url" content="https://cyberweblabs-design.github.io/about.html" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="About CyberWeb Labs" />
+  <meta name="twitter:description" content="Meet the CyberWeb Labs team and discover our mission in cybersecurity and web development." />
+  <meta name="twitter:image" content="https://cyberweblabs-design.github.io/assets/img/cyber-web.jpg" />
+
+  <!-- CSS + JS -->
   <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/main.js"></script>
 </head>
 <body>
-  <header>
+  <!-- Header -->
+  <header class="header">
     <nav class="navbar">
-      <div class="logo">
+      <a href="index.html" class="logo">
         <img src="assets/img/cyber-web.jpg" alt="CyberWeb Labs Logo">
-        <span>CyberWeb Labs</span>
-      </div>
+      </a>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html" class="active">About</a></li>
@@ -22,40 +50,42 @@
     </nav>
   </header>
 
-  <main>
-    <section class="page-hero">
-      <h1>About Us</h1>
-      <p>Meet the team behind CyberWeb Labs</p>
-    </section>
+  <!-- About -->
+  <section class="about">
+    <h1>About <span>CyberWeb Labs</span></h1>
+    <p>CyberWeb Labs is a technology company dedicated to providing cutting-edge cybersecurity and web development services. 
+    Our mission is to help businesses thrive in the digital age by ensuring security, scalability, and innovation.</p>
+  </section>
 
-    <section class="team">
-      <h2>Co-Founders</h2>
-      <div class="grid">
-        <div class="card">
-          <h3>Muhammad Danish</h3>
-          <p>Founder & CEO</p>
-          <a href="https://www.linkedin.com/in/muhammad-danish-cyberweblabs" target="_blank">LinkedIn</a>
-        </div>
-        <div class="card">
-          <h3>Waqar Ahmed</h3>
-          <p>Co-Founder & Web Developer</p>
-          <a href="https://www.linkedin.com/in/waqarahmed1357/" target="_blank">LinkedIn</a>
-        </div>
-        <div class="card">
-          <h3>Hassan Khan</h3>
-          <p>Co-Founder & Cybersecurity Expert</p>
-          <a href="https://www.linkedin.com/in/hassan-khan-securewith" target="_blank">LinkedIn</a>
-        </div>
+  <!-- Co-Founders -->
+  <section class="team">
+    <h2>Meet Our Founders</h2>
+    <div class="team-grid">
+      <div class="team-member">
+        <h3>Muhammad Danish</h3>
+        <p>Co-Founder & Developer</p>
+        <a href="https://www.linkedin.com/in/muhammad-danish-cyberweblabs" target="_blank">LinkedIn</a>
       </div>
-    </section>
-  </main>
+      <div class="team-member">
+        <h3>Waqar Ahmed</h3>
+        <p>Co-Founder & Web Developer</p>
+        <a href="https://www.linkedin.com/in/waqarahmed1357/" target="_blank">LinkedIn</a>
+      </div>
+      <div class="team-member">
+        <h3>Hassan Khan</h3>
+        <p>Co-Founder & Cybersecurity Expert</p>
+        <a href="https://www.linkedin.com/in/hassan-khan-securewith" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </section>
 
-  <footer>
-    <p>© 2025 CyberWeb Labs. All rights reserved.</p>
-    <div class="social">
-      <a href="https://www.linkedin.com/in/cyberweb-labs" target="_blank">LinkedIn</a>
-      <a href="https://github.com/cyberweblabs-design" target="_blank">GitHub</a>
-      <a href="mailto:cyberweblabs@gmail.com">Email</a>
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 CyberWeb Labs. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/cyberweb-labs" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/cyberweblabs-design" target="_blank">GitHub</a> |
+      <a href="mailto:cyberweblabs@gmail.com">cyberweblabs@gmail.com</a>
     </div>
   </footer>
 </body>
